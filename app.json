@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "O Meu Treino",
+    "slug": "omeutreino",
+    "scheme": "omeutreino",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
